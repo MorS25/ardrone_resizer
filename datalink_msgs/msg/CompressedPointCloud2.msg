@@ -1,0 +1,15 @@
+std_msgs/Header header
+uint32 height
+uint32 width
+sensor_msgs/PointField[] fields
+bool is_bigendian
+uint32 point_step
+uint32 row_step
+uint8 PC60=17
+uint8 PC30=16
+uint8 PCL=2
+uint8 ZLIB=1
+uint8 NONE=0
+uint8 compression_type
+uint8[] compressed_data
+bool is_dense
